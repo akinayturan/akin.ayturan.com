@@ -2368,6 +2368,15 @@ figcaption {
     border-right: 1px solid #e2e2e2;
     background-color: #fff;
 }
+.sidebar-wrapper .image{
+    margin-bottom: 15px;
+}
+
+.sidebar-wrapper .image img{
+    border-radius: 4%;
+}
+
+
 
 .blog-title {
     font-size: 30px;
