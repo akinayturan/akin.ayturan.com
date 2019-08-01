@@ -1,39 +1,5 @@
-/*
-*	 Author: beshleyua
-*	 Author URL: http://themeforest.net/user/beshleyua
-*/
-
-/* TABLE OF CONTENTS
-	1. Base
-	2. Container
-	3. Columns
-	4. Preloader
-	5. Typography
-	6. Forms
-	7. Alignments
-	8. Animations
-*/
-
-/*
-	1. Basic
-*/
-
 html {
 	margin-right: 0!important;
-}
-
-body {
-	margin: 0;
-	padding: 0;
-	border: none;
-	font-family: 'Poppins';
-	font-size: 14px;
-	color: #626262;
-	background: #d8dbe2;
-	letter-spacing: 0em;
-	font-weight: 400;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-size-adjust: 100%;
 }
 
 .page {
@@ -148,7 +114,6 @@ body {
 	3. Columns
 */
 .row {
-	margin: 0 -20px;
 	position: relative;
 	font-size: 0;
 }
