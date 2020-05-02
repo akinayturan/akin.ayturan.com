@@ -1213,3 +1213,9 @@
     max-width: 100%;
     display: inline-block !important;
 }
+#sidebar .image  {
+    text-align: center;
+}
+#sidebar .image img {
+    border-radius: 4%;
+}
