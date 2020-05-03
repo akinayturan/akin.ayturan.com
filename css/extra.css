@@ -248,9 +248,9 @@
     #sidebar {
         position: absolute;
         text-align: right;
-        width: 300px;
+        width: 250px;
         top: 0;
-        left: -340px
+        left: -270px
     }
 
     #sidebar li {
@@ -842,9 +842,9 @@
     #sidebar {
         position: absolute;
         text-align: right;
-        width: 300px;
+        width: 250px;
         top: 0;
-        left: -340px
+        left: -270px
     }
 
     #sidebar li {
@@ -1029,13 +1029,9 @@
 
 @media (prefers-color-scheme: light) {
     @font-face {
-        font-family: solarthemeicons;
-        src: url(../fonts/solarthemeicons.eot);
-        src: url(../fonts/solarthemeicons.eot#iefix) format("embedded-opentype"), url(../fonts/solarthemeicons.woff) format("woff"), url(../fonts/solarthemeicons.ttf) format("truetype"), url(../fonts/solarthemeicons.svg#solarthemeicons) format("svg");
         font-weight: 400;
         font-style: normal
     }[class^=icon-]:before, [class*=' icon-']:before {
-    font-family: solarthemeicons;
     font-style: normal;
     font-weight: 400;
     speak: none;
@@ -1123,8 +1119,8 @@
     }
 
     html, body {
-        background-color: #fdf6e3;
-        color: #839496
+        background-color: #EEEEEE;
+        color: #171a21
     }
 
     ::selection {
@@ -1217,5 +1213,6 @@
     text-align: center;
 }
 #sidebar .image img {
+    max-width: 250px;
     border-radius: 4%;
 }
