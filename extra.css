@@ -1203,14 +1203,21 @@
 .social-icon-link:hover {
     opacity: 0.9;
 }
+
 .w-inline-block {
     max-width: 100%;
     display: inline-block !important;
 }
-#sidebar .image  {
+
+#sidebar .image {
     text-align: center;
 }
+
 #sidebar .image img {
     max-width: 250px;
     border-radius: 4%;
+}
+
+.copyright {
+    float: left;
 }
