@@ -1,0 +1,220 @@
+/*
+    Colors Variables
+ */
+:root {
+    --blue-lighter: rgba(220, 236, 246, 0.30); /* hex: #DCECF64D */
+    --blue-light: rgb(220, 236, 246); /* hex: #DCECF6 */
+    --blue-medium: rgb(77, 154, 203); /* hex: #4D9ACB */
+    --blue-dark: rgb(0, 75, 128); /* hex: #004B80 */
+    --blue-darker: rgb(0, 75, 128); /* hex: #004B80 */
+
+    --green-lighter: rgba(207, 240, 230, 0.30); /* hex: #CFF0E64D */
+    --green-light: rgb(207, 240, 230); /* hex: #CFF0E6 */
+    --green-medium: rgb(59, 158, 128); /* hex: #3B9E80 */
+    --green-dark: rgb(13, 89, 66); /* hex: #0D5942 */
+    --green-darker: rgb(13, 89, 66); /* hex: #0D5942 */
+
+    --purple-lighter: rgba(233, 218, 240, 0.30); /* hex: #E9DAF04D */
+    --purple-light: rgb(233, 218, 240); /* hex: #E9DAF0 */
+    --purple-medium: rgb(198, 80, 148); /* hex: #C65094 */
+    --purple-dark: rgb(108, 48, 136); /* hex: #6C3088 */
+    --purple-darker: rgb(95, 55, 114); /* hex: #5F3772 */
+}
+
+/*
+    COMMON TO ALL TEMPLATE
+*/
+
+/*
+    BLUE Templates
+ */
+/*--------------------------COMMON--------------------------*/
+.color-light-blue .personal-name,
+.color-dark-blue .personal-name,
+.color-light-blue .section-heading,
+.color-dark-blue .section-heading,
+.color-light-blue .work-title,
+.color-dark-blue .work-title,
+.color-light-blue .work-occupation,
+.color-dark-blue .work-occupation,
+.color-light-blue .training-title,
+.color-dark-blue .training-title,
+.color-light-blue .training-qualification,
+.color-dark-blue .training-qualification,
+.color-light-blue h1,
+.color-dark-blue h1,
+.color-light-blue h2,
+.color-dark-blue h2,
+.color-light-blue h3,
+.color-dark-blue h3,
+.color-light-blue h4,
+.color-dark-blue h4,
+.color-light-blue h5,
+.color-dark-blue h5,
+.color-dark-blue h6,
+.color-dark-blue .digital-skill-title,
+.color-dark-blue .publication-title a,
+.color-light-blue .digital-skill-title,
+.color-light-blue .publication-title a,
+.color-dark-blue i.ei {
+    color: #404040 !important;
+}
+
+.color-light-blue .personal-picture,
+.color-dark-blue .personal-picture {
+    border-color: var(--blue-medium) !important;
+}
+
+.color-light-blue .section-heading,
+.color-dark-blue .section-heading,
+.color-light-blue .hr-height,
+.color-dark-blue .hr-height {
+    border-color: var(--blue-medium) !important;
+}
+
+.color-light-blue li.icon:before,
+.color-dark-blue li.icon:before,
+.color-light-blue i.ei,
+.color-dark-blue i.ei {
+    color: var(--blue-dark) !important;
+}
+
+/*--------------------------LIGHT--------------------------*/
+.color-light-blue header, .color-light-blue footer {
+    border-color: var(--blue-lighter) !important;
+}
+
+/*--------------------------DARK--------------------------*/
+.color-dark-blue header, .color-dark-blue footer {
+    border-color: var(--blue-dark) !important;
+}
+
+
+/*
+    green Templates
+ */
+/*--------------------------COMMON--------------------------*/
+.color-light-green .personal-name,
+.color-dark-green .personal-name,
+.color-light-green .section-heading,
+.color-dark-green .section-heading,
+.color-light-green .work-title,
+.color-dark-green .work-title,
+.color-light-green .work-occupation,
+.color-dark-green .work-occupation,
+.color-light-green .training-title,
+.color-dark-green .training-title,
+.color-light-green .training-qualification,
+.color-dark-green .training-qualification,
+.color-light-green h1,
+.color-dark-green h1,
+.color-light-green h2,
+.color-dark-green h2,
+.color-light-green h3,
+.color-dark-green h3,
+.color-light-green h4,
+.color-dark-green h4,
+.color-light-green h5,
+.color-dark-green h5,
+.color-dark-green h6,
+.color-dark-green .digital-skill-title,
+.color-dark-green .publication-title a,
+.color-light-green .digital-skill-title,
+.color-light-green .publication-title a,
+.color-dark-blue i.ei {
+    color: #404040 !important;
+}
+
+.color-light-green .personal-picture,
+.color-dark-green .personal-picture {
+    border-color: var(--green-medium) !important;
+}
+
+.color-light-green .section-heading,
+.color-dark-green .section-heading,
+.color-light-green .hr-height,
+.color-dark-green .hr-height {
+    border-color: var(--green-medium) !important;
+}
+
+.color-light-green li.icon:before,
+.color-dark-green li.icon:before,
+.color-light-green i.ei,
+.color-dark-green i.ei {
+    color: var(--green-medium) !important;
+}
+
+/*--------------------------LIGHT--------------------------*/
+.color-light-green header, .color-light-green footer {
+    border-color: var(--green-lighter) !important;
+}
+
+/*--------------------------DARK--------------------------*/
+.color-dark-green header, .color-dark-green footer {
+    border-color: var(--green-medium) !important;
+}
+
+
+/*
+    purple Templates
+ */
+/*--------------------------COMMON--------------------------*/
+.color-light-purple .personal-name,
+.color-dark-purple .personal-name,
+.color-light-purple .section-heading,
+.color-dark-purple .section-heading,
+.color-light-purple .work-title,
+.color-dark-purple .work-title,
+.color-light-purple .work-occupation,
+.color-dark-purple .work-occupation,
+.color-light-purple .training-title,
+.color-dark-purple .training-title,
+.color-light-purple .training-qualification,
+.color-dark-purple .training-qualification,
+.color-light-purple h1,
+.color-dark-purple h1,
+.color-light-purple h2,
+.color-dark-purple h2,
+.color-light-purple h3,
+.color-dark-purple h3,
+.color-light-purple h4,
+.color-dark-purple h4,
+.color-light-purple h5,
+.color-dark-purple h5,
+.color-dark-purple h6,
+.color-dark-purple .digital-skill-title,
+.color-dark-purple .publication-title a,
+.color-light-purple .digital-skill-title,
+.color-light-purple .publication-title a,
+.color-dark-blue i.ei {
+    color: #404040 !important;
+}
+
+.color-light-purple .personal-picture,
+.color-dark-purple .personal-picture {
+    border-color: var(--purple-dark) !important;
+}
+
+.color-light-purple .section-heading,
+.color-dark-purple .section-heading,
+.color-light-purple .hr-height,
+.color-dark-purple .hr-height {
+    border-color: var(--purple-dark) !important;
+}
+
+.color-light-purple li.icon:before,
+.color-dark-purple li.icon:before,
+.color-light-purple i.ei,
+.color-dark-purple i.ei {
+    color: var(--purple-dark) !important;
+}
+
+/*--------------------------LIGHT--------------------------*/
+.color-light-purple header, .color-light-purple footer {
+    border-color: var(--purple-lighter) !important;
+}
+
+/*--------------------------DARK--------------------------*/
+.color-dark-purple header, .color-dark-purple footer {
+    border-color: var(--purple-darker) !important;
+}

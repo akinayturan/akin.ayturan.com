@@ -1,20 +1,20 @@
 @charset "utf-8";
 
 /* Fonts */
-@import "https://europa.eu/europass/eportfolio/api/eprofile/static/cv/cv-3/css/base/fonts.css";
+@import "/akin.ayturan.com/cv/fonts.css";
 
 /* common */
-@import "https://europa.eu/europass/eportfolio/api/eprofile/static/cv/cv-3/css/base/reboot.css";
+@import "/akin.ayturan.com/cv/reboot.css";
 
 /* template */
-@import "https://europa.eu/europass/eportfolio/api/eprofile/static/cv/cv-3/css/base/base.css";
-@import "https://europa.eu/europass/eportfolio/api/eprofile/static/cv/cv-3/css/base/colors.css";
-@import "https://europa.eu/europass/eportfolio/api/eprofile/static/cv/cv-3/css/layout/template.css";
-@import "https://europa.eu/europass/eportfolio/api/eprofile/static/cv/cv-3/css/layout/fonts-size.css";
+@import "/akin.ayturan.com/cv/base.css";
+@import "/akin.ayturan.com/cv/colors.css";
+@import "/akin.ayturan.com/cv/template.css";
+@import "/akin.ayturan.com/cv/fonts-size.css";
 
 /* helper */
-@import "https://europa.eu/europass/eportfolio/api/eprofile/static/cv/cv-3/css/utilities/helper-classes.css";
+@import "/akin.ayturan.com/cv/helper-classes.css";
 
-@import url(https://europa.eu/europass/eportfolio/api/eprofile/static/cv/shared/epass-icons/epass-icons.css);
+@import url(/akin.ayturan.com/cv/epass-icons.css);
 /* Quill classes */
-@import "https://europa.eu/europass/eportfolio/api/eprofile/static/share-profile/css/quill.css";
+@import "/akin.ayturan.com/cv/quill.css";

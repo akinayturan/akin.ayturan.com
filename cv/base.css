@@ -1,0 +1,170 @@
+/*
+----------------------------------------------------------------
+html, body --> the default font and color   
+---------------------------------------------------------------- 
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+/* Stupid IE11 - https://connect.microsoft.com/IE/feedback/details/816709/ie-11-calculating-font-sizes-wrong-when-setting-the-bodys-font-size-in-relative-units */
+_:-ms-fullscreen,
+:root {
+    font-size: calc(1em * 0.625);
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+
+    font-family: 'font-family-open-sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #565656;
+}
+
+/*
+----------------------------------------------------------------
+heading
+----------------------------------------------------------------
+*/
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 4mm;
+    line-height: 1.2;
+    color: #0c56a5;
+}
+
+/*
+----------------------------------------------------------------
+Link
+----------------------------------------------------------------
+*/
+a,
+button {
+    transition: color ease 0.2s;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+a:link,
+a:visited {
+    color: #0c56a5;
+}
+a:hover {
+    color: #565656;
+}
+
+/*
+----------------------------------------------------------------
+blockquote
+----------------------------------------------------------------
+*/
+blockquote {
+    border-left: 0.2rem solid #f6f6f6;
+    margin-left: 0;
+    padding: 1rem 2rem;
+}
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+/*
+----------------------------------------------------------------
+img and video
+----------------------------------------------------------------
+*/
+img,
+video {
+    vertical-align: bottom;
+}
+
+/*
+----------------------------------------------------------------
+others
+----------------------------------------------------------------
+*/
+abbr {
+    border-bottom: 0.1rem dotted;
+    cursor: help;
+    text-decoration: none;
+}
+cite {
+    font-style: italic;
+}
+hr {
+    border-top: 1px solid #ddd;
+    border-bottom: none;
+}
+small {
+    font-size: 75%;
+}
+strong,
+b {
+    font-weight: 700;
+}
+address {
+    font-style: normal;
+}
+
+/*
+----------------------------------------------------------------
+space
+----------------------------------------------------------------
+*/
+p {
+    margin-bottom: 0mm;
+}
+
+ul, ol, hr {
+    margin-top: 0;
+    margin-bottom: 3.97mm;
+}
+
+
+.hr-height {
+    background-color:  #a4a4a4;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-space {
+    min-height: 24em;
+}
+
+.signature-size {
+    max-width: 100%;
+    max-height: 1.6cm;
+}
+
+.signature-container {
+    max-width: 4cm;
+    min-width: 4cm;
+}
+
+.footer-table {
+    table-layout: fixed;
+}
+
+.footer-table td {
+    padding-top: 0;
+    border:none;
+    width: 100%;
+}

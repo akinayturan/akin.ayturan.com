@@ -1,0 +1,58 @@
+body {
+    font-size: var(--font-sm) !important;
+}
+
+.personal-name {
+    font-size: var(--font-lg) !important;
+}
+
+.section h2 {
+    font-size: var(--font-md) !important;
+}
+
+.section h3,
+.random-title {
+    font-size: var(--font-sm) !important;
+    line-height: 1.5;
+}
+
+.font-size-medium .training-title,
+.font-size-medium .training-item .random-title,
+.font-size-medium .work-title,
+.font-size-medium .work-item .random-title {
+    font-size: var(--font-md) !important;
+    line-height: 1.5;
+}
+
+.font-size-large .training-title,
+.font-size-large .training-item .random-title,
+.font-size-large .work-title,
+.font-size-large .work-item .random-title {
+    font-size: var(--font-md) !important;
+    line-height: 1.5;
+}
+
+.font-size-medium .language-label,
+.font-size-medium .language-skills .language,
+.font-size-medium .language-skills .other-langue-name,
+.font-size-medium .section.digital-skills > h3 {
+    font-size: var(--font-md) !important;
+}
+
+.font-size-large .language-label,
+.font-size-large .language-skills .language,
+.font-size-large .language-skills .other-langue-name,
+.font-size-large .section.digital-skills > h3 {
+    font-size: var(--font-md-fancy) !important;
+}
+
+.digital-skills-assessment .item .proficiency-level,
+.digital-skills-assessment .item .ca-level {
+    font-size: var(--font-xs) !important;
+}
+
+.special-footer .closing-statement,
+.special-footer .footer-table,
+.special-footer .signature-name {
+    font-size: var(--font-xs);
+}

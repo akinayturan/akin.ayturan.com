@@ -1,0 +1,79 @@
+/*------------------------------------*\
+    #FONTS DECLARATION
+    Use this fill to declare new fonts using @font-face
+\*------------------------------------*/
+
+/* font name: OpenSans Book */
+@font-face {
+    font-family: 'font-family-open-sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://europa.eu/europass/eportfolio/api/eprofile/static/share-profile/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+/* font name: OpenSans Italic */
+@font-face {
+    font-family: 'font-family-open-sans';
+    font-style: italic;
+    font-weight: normal;
+    src: url('https://europa.eu/europass/eportfolio/api/eprofile/static/share-profile/fonts/OpenSans-Italic.ttf') format('truetype');
+}
+
+/* font name: OpenSans SemiBold */
+@font-face {
+    font-family: 'font-family-open-sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('https://europa.eu/europass/eportfolio/api/eprofile/static/share-profile/fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+/* font name: OpenSans Bold */
+@font-face {
+    font-family: 'font-family-open-sans';
+    font-style: normal;
+    font-weight: bold;
+    src: url('https://europa.eu/europass/eportfolio/api/eprofile/static/share-profile/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+/* font name: OpenSans Bold Italic */
+@font-face {
+    font-family: 'font-family-open-sans';
+    font-style: italic;
+    font-weight: bold;
+    src: url('https://europa.eu/europass/eportfolio/api/eprofile/static/share-profile/fonts/OpenSans-BoldItalic.ttf') format('truetype');
+}
+
+/* font name: OpenSans Heavy */
+@font-face {
+    font-family: 'font-family-open-sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('https://europa.eu/europass/eportfolio/api/eprofile/static/share-profile/fonts/OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'font-awesome-5-Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-brands-400.eot");
+    src: url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-brands-400.woff2") format("woff2"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-brands-400.woff") format("woff"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-brands-400.ttf") format("truetype"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+    font-family: 'font-awesome-5-Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-regular-400.eot");
+    src: url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-regular-400.woff2") format("woff2"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-regular-400.woff") format("woff"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-regular-400.ttf") format("truetype"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+    font-family: 'font-awesome-5-Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-solid-900.eot");
+    src: url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-solid-900.woff2") format("woff2"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-solid-900.woff") format("woff"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-solid-900.ttf") format("truetype"), url("https://europa.eu/europass/eportfolio/api/eprofile/static/lib/font-awesome-5/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
