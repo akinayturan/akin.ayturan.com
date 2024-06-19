@@ -479,7 +479,7 @@
     }
 
     .token.null, .token.operator, .token.boolean, .token.number {
-        color: #cb4b16
+        color: #CCCCCC
     }
 
     .token.property {
@@ -499,7 +499,7 @@
     }
 
     .token.attr-name {
-        color: #cb4b16
+        color: #CCCCCC
     }
 
     .token.entity, .token.url, .language-css .token.string, .style .token.string {
@@ -552,17 +552,17 @@
     }
 
     h1, h2, h3 {
-        color: #cb4b16
+        color: #CCCCCC
     }
 
     h1 a, h1 a:visited, h1 a:active {
-        color: #cb4b16
+        color: #CCCCCC
     }
 
     h1 a:hover {
         background-color: #073642;
         border-color: #073642;
-        color: #cb4b16
+        color: #CCCCCC
     }
 
     article h1 a.anchor {
@@ -570,7 +570,7 @@
     }
 
     blockquote {
-        border-color: #cb4b16
+        border-color: #CCCCCC
     }
 
     #sidebar a:hover {
@@ -1068,7 +1068,7 @@
     }
 
     .token.null, .token.operator, .token.boolean, .token.number {
-        color: #cb4b16
+        color: #CCCCCC
     }
 
     .token.property {
@@ -1088,7 +1088,7 @@
     }
 
     .token.attr-name {
-        color: #cb4b16
+        color: #CCCCCC
     }
 
     .token.entity, .token.url, .language-css .token.string, .style .token.string {
@@ -1141,11 +1141,11 @@
     }
 
     h1, h2, h3 {
-        color: #cb4b16
+        color: #CCCCCC
     }
 
     h1 a, h1 a:visited, h1 a:active {
-        color: #cb4b16
+        color: #CCCCCC
     }
 
     h1 a:hover {
@@ -1158,7 +1158,7 @@
     }
 
     blockquote {
-        border-color: #cb4b16
+        border-color: #CCCCCC
     }
 
     #sidebar a:hover {
