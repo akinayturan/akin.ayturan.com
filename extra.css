@@ -257,6 +257,16 @@
         margin: 2px 0
     }
 
+    .participation-list {
+        list-style: disc;
+        padding-left: 1.2rem;
+        margin-left: 0;
+    }
+
+    .participation-list li {
+        margin: 0.2rem 0;
+    }
+
     #sidebar a {
         border: none;
         display: block;
