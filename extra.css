@@ -1231,3 +1231,146 @@
 .copyright {
     float: left;
 }
+
+.theme-toggle-wrap {
+    margin: 0 0 16px;
+}
+
+.theme-toggle {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease, transform 200ms ease;
+}
+
+.theme-toggle:hover {
+    transform: translateY(-1px);
+}
+
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+    background-color: #202124;
+    color: #839496;
+}
+
+html[data-theme="dark"] a,
+html[data-theme="dark"] a:visited,
+html[data-theme="dark"] a:active,
+html[data-theme="dark"] a code {
+    color: #2aa198;
+    border-color: #073642;
+}
+
+html[data-theme="dark"] a:hover {
+    background-color: #073642;
+    border-color: #073642;
+    color: #2aa198;
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h1 a,
+html[data-theme="dark"] h1 a:visited,
+html[data-theme="dark"] h1 a:active,
+html[data-theme="dark"] blockquote {
+    color: #fdf6e3;
+    border-color: #586e75;
+}
+
+html[data-theme="dark"] hr,
+html[data-theme="dark"] #footer {
+    border-color: #073642;
+}
+
+html[data-theme="dark"] pre code {
+    background-color: #073642;
+    color: #93a1a1;
+    border-color: #0a4452;
+}
+
+html[data-theme="dark"] #sidebar a:hover {
+    background-color: transparent;
+}
+
+html[data-theme="dark"] #sidebar a:hover span {
+    color: #2aa198;
+    background-color: #073642;
+}
+
+html[data-theme="dark"] .theme-toggle {
+    background-color: #073642;
+    border-color: #0a4452;
+    color: #fdf6e3;
+}
+
+html[data-theme="dark"] .theme-toggle:hover {
+    background-color: #0a4452;
+}
+
+html[data-theme="light"],
+html[data-theme="light"] body {
+    background-color: #EEEEEE;
+    color: #171a21;
+}
+
+html[data-theme="light"] a,
+html[data-theme="light"] a:visited,
+html[data-theme="light"] a:active,
+html[data-theme="light"] a code {
+    color: #2aa198;
+    border-color: #eee8d5;
+}
+
+html[data-theme="light"] a:hover {
+    background-color: #eee8d5;
+    border-color: #eee8d5;
+    color: #2aa198;
+}
+
+html[data-theme="light"] h1,
+html[data-theme="light"] h2,
+html[data-theme="light"] h3,
+html[data-theme="light"] h1 a,
+html[data-theme="light"] h1 a:visited,
+html[data-theme="light"] h1 a:active,
+html[data-theme="light"] blockquote {
+    color: #171a21;
+    border-color: #CCCCCC;
+}
+
+html[data-theme="light"] hr,
+html[data-theme="light"] #footer {
+    border-color: #eee8d5;
+}
+
+html[data-theme="light"] pre code {
+    background-color: #eee8d5;
+    color: #657b83;
+    border-color: #d6ceb6;
+}
+
+html[data-theme="light"] #sidebar a:hover {
+    background-color: transparent;
+}
+
+html[data-theme="light"] #sidebar a:hover span {
+    color: #2aa198;
+    background-color: #eee8d5;
+}
+
+html[data-theme="light"] .theme-toggle {
+    background-color: #f8f3e7;
+    border-color: #d6ceb6;
+    color: #171a21;
+}
+
+html[data-theme="light"] .theme-toggle:hover {
+    background-color: #eee8d5;
+}
