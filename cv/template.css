@@ -24,7 +24,7 @@ Template : common properties
 */
 /* page */
 @page {
-    margin: 12mm 12mm 20mm 12mm; /* Set margin on each page */
+    margin: 6mm 6mm 10mm 6mm; /* Set margin on each page */
     size: A4;
 }
 
