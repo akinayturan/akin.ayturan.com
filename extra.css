@@ -1412,7 +1412,7 @@ html[data-theme="light"] blockquote {
 
 html[data-theme="light"] hr,
 html[data-theme="light"] #footer {
-    border-color: #eee8d5;
+    border-color: #d7cfbf;
 }
 
 html[data-theme="light"] pre code {
@@ -1431,18 +1431,18 @@ html[data-theme="light"] #sidebar a:hover span {
 }
 
 html[data-theme="light"] .theme-toggle {
-    background-color: #f8f3e7;
-    border-color: #d6ceb6;
+    background-color: #f6f0e4;
+    border-color: #cfc3ae;
     color: #171a21;
 }
 
 html[data-theme="light"] .theme-toggle:hover {
-    background-color: #eee8d5;
+    background-color: #e9decb;
 }
 
 html[data-theme="light"] .lang-switch {
-    background-color: #f8f3e7;
-    border-color: #d6ceb6;
+    background-color: #f6f0e4;
+    border-color: #cfc3ae;
 }
 
 html[data-theme="light"] .lang-switch__option,
@@ -1452,11 +1452,11 @@ html[data-theme="light"] .lang-switch__option:active {
 }
 
 html[data-theme="light"] .lang-switch__option:hover {
-    background-color: rgba(238, 232, 213, .9);
+    background-color: rgba(233, 222, 203, .92);
     color: #171a21;
 }
 
 html[data-theme="light"] .lang-switch__option.is-active {
-    background-color: #eee8d5;
+    background-color: #e2d4bd;
     color: #171a21;
 }
