@@ -1385,6 +1385,11 @@ html[data-theme="light"] body {
     color: #171a21;
 }
 
+html[data-theme="light"] ::selection {
+    background-color: #cce7e2;
+    color: #171a21;
+}
+
 html[data-theme="light"] a,
 html[data-theme="light"] a:visited,
 html[data-theme="light"] a:active,
