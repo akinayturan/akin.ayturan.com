@@ -154,16 +154,15 @@ Personal Information
 /* picture */
 .personal-picture {
     display: inline-block;
-    margin-right: 8mm;
+    margin-right: 4mm;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .personal-picture img {
-    border-radius: 50%;
-    border: 2pt solid #c6c6c6;
-    width: 128px;
+    border-radius: 30%;
+    border: 1pt solid #c6c6c6;
     height: 128px;
 }
 
