@@ -1763,6 +1763,15 @@ body.recruiter-cv .cv-experience > ul:first-of-type {
     list-style: none;
 }
 
+body.recruiter-cv .cv-experience > ul:first-of-type > li > ul {
+    margin: 8px 0 0;
+    padding-left: 20px;
+    list-style: disc;
+    color: var(--cv-muted);
+    font-size: 13px;
+    line-height: 1.65;
+}
+
 body.recruiter-cv .cv-experience > ul:first-of-type > li {
     margin: 0;
     padding: 0 0 20px;

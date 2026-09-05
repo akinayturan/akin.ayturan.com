@@ -23,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="extra.css?6">
+    <link rel="stylesheet" href="extra.css?7">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body class="recruiter-cv">
@@ -42,9 +42,9 @@
             <p class="site-description">
                 I design, build, and maintain scalable web applications as a full stack software developer.
                 I specialize in React (Next.js) on the frontend and .NET Core (Entity Framework Core) and Laravel on the backend.
-                I also have solid experience with WordPress and CodeIgniter.
+                My work includes e-commerce platforms, REST APIs, and third-party integrations.
                 I have managed full deployment lifecycles using Plesk, WHM/cPanel, CWP, and VestaCP, including server setup, backups, and maintenance.
-                Additionally, I handle responsive UI layouts using HTML5 and CSS3 across platforms.
+                I apply LLM tools to multilingual publishing and software development. My master's thesis focused on particulate matter forecasting with deep learning.
             </p>
             <p class="profile-contact"><a href="mailto:akin@ayturan.com">akin@ayturan.com</a><span aria-hidden="true">|</span><a target="_blank" href="https://www.linkedin.com/in/akinayturan">LinkedIn</a></p>
             <hr/>
@@ -61,7 +61,7 @@
                         <b>ADDRESS</b> <br/>Ankara, TR
                     </li>
                     <li>
-                        <b>AGE</b> <br/>36
+                        <b>AGE</b> <br/><span id="profile-age">35</span>
                     </li>
                 </ul>
             </nav>
@@ -101,72 +101,45 @@
             <hr/>
 
 
-            <section class="cv-section cv-education">
-            <h2 class="name"><i class="fas fa-university"></i> Education</h2>
-
-            <ul class="resume-items participation-list">
-                <li class="resume-item border-line-h">
-                    <div class="date">2017 - 2019</div>
-                    <div class="name">Master of Science degree, Electrical and Computer Engineering</div>
-                    <div class="company">KTO Karatay University, Konya/Turkiye</div>
-                    <div><small><strong>Thesis:</strong> Forecasting of Particulate Matter Concentration with Deep Learning Method</small></div>
-                </li>
-                <li class="resume-item">
-                    <div class="date">2009 - 2015</div>
-                    <div class="name">Bachelor's degree, Electrical and Electronics Engineering</div>
-                    <div class="company">Başkent University, Ankara/Turkiye</div>
-                    <div><small><strong>Thesis:</strong> Greenhouse Air Conditioning Design</small></div>
-                    <div><small><strong>University Projects:</strong></small></div>
-                    <div><small>Business Network Platform for Blue Collar Employees - Başkent University Incubation Center / Narusta (Apr 2015 - May 2017)</small></div>
-                    <div><small>Intelligent Irrigation Systems - Başkent University Incubation Center / Patelena (Apr 2016 - May 2018)</small></div>
-                </li>
-                <li class="resume-item">
-                    <div class="date">2004 - 2007</div>
-                    <div class="name">High School, Science High School</div>
-                    <div class="company">Gazi University Foundation Science High School, Ankara/Turkiye</div>
-                </li>
-            </ul>
-            </section>
-
-            <hr/>
-
-
-            <section class="cv-section cv-skills">
-            <h2><i class="fas fa-laptop-code"></i> Job-Related Skills</h2>
-            <ul class="participation-list">
-                <li><b>Frameworks, Tools & Technologies:</b> React, Next.js, .NET Core, Entity Framework Core, Laravel, CodeIgniter, Linux (Ubuntu), Matlab, Rider, Microprocessors, Windows Server, Visual Studio, Git, Vim, Borland C++, Proteus, ISIS, Wireshark, NetBeans, Arduino, Postico</li>
-                <li><b>AI & Deep Learning:</b> Master's thesis on forecasting particulate matter concentration with deep learning; LLM-supported content workflows, prompt engineering, AI-generated multilingual publishing, API integrations, and AI-assisted software development.</li>
-                <li><b>Programming Languages:</b> HTML5, CSS3, PHP, MySQL, JavaScript, C, C#, .NET Core, SQL</li>
-                <li><b>Software Knowledge:</b> PhpStorm, WebStorm, Rider, PyCharm, Fleet, GitHub, AutoCAD, Android Studio, Visual Studio, Microsoft Office (Word, Excel with Macro, PowerPoint), VSCode</li>
-            </ul>
-            </section>
-
-            <hr/>
             <section class="cv-section cv-experience">
             <h2><i class="fas fa-briefcase"></i> Experience</h2>
             <ul class="b participation-list">
                 <li>
                     <b>Tutus Media GmbH - <small>Full Stack Software Developer</small></b>
                     <a aria-label="tutusmedia" target="_blank" href="https://tutusmedia.com"><i
-                            class="fas fa-external-link-square-alt"></i></a></br>
+                            class="fas fa-external-link-square-alt"></i></a><br/>
                     <small>Remote Work</small> - Apr 2019 - Aug 2026
-                    <p>Delivered end-to-end development of multi-market digital commerce and campaign platforms, including the Mevlanacay Gewinnen giveaway platform and .NET/React solutions for Grosshandel Goran Tee and Morgenmarkt. Built Fussmattenprofi with a Next.js frontend, .NET/React administration panel, and JTL integration; migrated Panda Kindermöbel.ch to a Next.js and .NET/React platform with Galaxus integration.</p>
-                    <p>Modernized the Handy portfolio (Handy.de, Telefonvertrag.de, Ratendeals.de, Handyflat.de, and Handymitvertrag.de), transitioning from a legacy PHP Webshopvision implementation to a .NET/React administration panel and Next.js frontend. Developed the Morgenmarkt shipping module and REST APIs integrating DHL and Wolt, while supporting hosting and legacy CMS operations across the product portfolio.</p>
+                    <ul>
+
+                <li>Built the complete Mevlanacay Gewinnen giveaway platform and .NET/React systems for Grosshandel Goran Tee and Morgenmarkt.</li>
+                <li>Developed Fussmattenprofi with a Next.js frontend, .NET/React administration panel, and JTL data integration.</li>
+                <li>Migrated Panda Kindermöbel.ch to a Next.js and .NET/React platform with Galaxus integration.</li>
+                <li>Modernized the Handy portfolio (Handy.de, Telefonvertrag.de, Ratendeals.de, Handyflat.de, and Handymitvertrag.de), transitioning from a legacy PHP Webshopvision implementation to a .NET/React administration panel and Next.js frontend.</li>
+                <li>Built the Morgenmarkt shipping module and REST APIs integrating DHL and Wolt.</li>
+                <li>Provided infrastructure, hosting, and legacy CMS operational support across a portfolio of live digital products.</li>
+            </ul>
                 </li>
                 <li>
                     <b>Hermes Reklam Ltd. Şti. - <small>Full Stack Software Developer</small></b>
-                    <a aria-label="hermesreklam" target="_blank" href="https://hermesreklam.com"><i class="fas fa-external-link-square-alt"></i></a></br>
+                    <a aria-label="hermesreklam" target="_blank" href="https://hermesreklam.com"><i class="fas fa-external-link-square-alt"></i></a><br/>
                     <small>Remote Work</small> - Feb 2016 - Apr 2019
-                    <p>Designed and developed Narusta, a centralized operations platform for advertising print centers in Ankara, Izmir, and Antalya, covering order intake, production, shipping, and subcontractor task tracking. Progressively evolved the platform from pure PHP to Laravel and a React administration panel.</p>
-                    <p>Delivered an OpenCart digital sales platform with custom mockup placement and extension capabilities, developed client web projects, and initiated the modernization of the platform with .NET Core and React.</p>
+                    <ul>
+                <li>Designed and developed Narusta, a centralized operations platform for advertising print centers in Ankara, Izmir, and Antalya.</li>
+                <li>Implemented order intake, production, shipping, and subcontractor task-tracking workflows from a central Ankara office.</li>
+                <li>Evolved the platform from pure PHP to Laravel and a React administration panel.</li>
+                <li>Built an OpenCart digital sales platform with custom mockup placement and extension capabilities.</li>
+                <li>Delivered client web projects and initiated platform modernization with .NET Core and React.</li>
+            </ul>
                 </li>
                 <li>
                     <b>Mösyö Bilişim Teknolojileri - <small>Full Stack Software Developer</small></b> <a aria-label="mosyo" target="_blank"
                                                                                               href="https://gust.com/companies/mosyo"><i
                         class="fas fa-external-link-square-alt"></i></a>
-                    </br>
-                    <small>Ankara</small> -  April 2015 - May 2016
-                    <p>
+                    <br/>
+                    <small>Ankara</small> -  March 2015 - March 2016
+
+<p>Worked on software-to-hardware integration using Visual Studio, C, and C#, and supported web platform setup and deployment.</p>
+<p>
                         MÖSYÖ was structured around five core platforms: Patron for business owners, APP for customers,
                         Mösyö Garson for waitstaff, Mösyö Pay for payment operations, and Mösyö Otomasyon as the main automation system.
                         The ecosystem also included a waiter communication system and a personnel tracking system.
@@ -184,21 +157,60 @@
                 <li><b>Gladius Technology Solutions</b> - External Service / Full Stack Software Developer<br/>Remote collaboration for projects based in the Slovak Republic (June 2016 - May 2018).</li>
                 <li><b>Sub Network Solutions</b> - Independent Web Project <a aria-label="subfyi" target="_blank"
                                                                               href="https://sub.fyi/"><i
-                        class="fas fa-external-link-square-alt"></i></a><br/>A practical web tools and digital services platform combining browser-based tools with web, mobile, and infrastructure services, built and maintained using .NET Core, Next.js, and React.
+                        class="fas fa-external-link-square-alt"></i></a><br/>Developed and maintained Sub Network Solutions using .NET Core, Next.js, and React, combining browser-based tools with web, mobile, and infrastructure services.
                 </li>
                 <li><b>Pearson Housing</b> - External Service / Full Stack Software Developer <a aria-label="pearsonhousing" target="_blank"
                                                                         href="https://pearsonhousing.com/"><i
-                        class="fas fa-external-link-square-alt"></i></a><br/>A furnished housing booking platform serving students and young professionals with accommodation listings and online reservation flows, built and maintained using .NET Core, Next.js, and React.
+                        class="fas fa-external-link-square-alt"></i></a><br/>Developed and maintained accommodation listing and online reservation features for Pearson Housing using .NET Core, Next.js, and React.
                 </li>
                 <li><b>Eskipano.com</b> - Independent Web Project <a aria-label="eskipano" target="_blank"
                                                                      href="https://eskipano.com/"><i
-                        class="fas fa-external-link-square-alt"></i></a><br/>A multilingual, AI-generated digital publishing platform built with .NET and Next.js, with a React-based administration panel.
+                        class="fas fa-external-link-square-alt"></i></a><br/>Developed Eskipano.com using .NET and Next.js with a React administration panel, supporting multilingual publishing and AI-generated content.
                 </li>
             </ul>
             <h3>Editorial & Journal Management</h3>
             <ul class="participation-list">
                 <li><b>IJEPEM - International Journal of Environmental Pollution and Environmental Modelling</b> <a aria-label="ijepem" target="_blank" href="https://dergipark.org.tr/en/pub/ijepem"><i class="fas fa-external-link-square-alt"></i></a><br/>Founder & Owner / 2018 - Current<br/>Led the journal's establishment, publishing operations, technical infrastructure, and platform management.</li>
                 <li><b>UCBAD - Ulusal Çevre Bilimleri Araştırma Dergisi</b> <a aria-label="ucbad" target="_blank" href="https://dergipark.org.tr/tr/pub/ucbad"><i class="fas fa-external-link-square-alt"></i></a><br/>Technical Support / 2018 - Current<br/>Provided technical support for the journal's infrastructure, publishing workflow, and operational maintenance.</li>
+            </ul>
+            </section>
+
+<section class="cv-section cv-skills">
+<h2><i class="fas fa-laptop-code"></i> Job-Related Skills</h2>
+<ul class="participation-list">
+<li><b>Frontend:</b> React, Next.js, JavaScript, HTML5, CSS3</li>
+<li><b>Backend and Data:</b> C#, .NET Core, Entity Framework Core, PHP, Laravel, CodeIgniter, REST API, SQL, MySQL</li>
+<li><b>Infrastructure and Deployment:</b> Linux (Ubuntu), Windows Server, Plesk, WHM/cPanel, CWP, VestaCP</li>
+<li><b>Development Tools:</b> Git, GitHub, Visual Studio, Rider, VS Code, PhpStorm, WebStorm, PyCharm, Android Studio, NetBeans, Vim, Postico, Wireshark</li>
+<li><b>AI and Deep Learning:</b> Applied AI: LLM-supported content workflows, prompt engineering, API integrations, AI-generated multilingual publishing, and AI-assisted software development. Academic research: master's thesis on forecasting particulate matter concentration with deep learning.</li>
+<li><b>Additional Technical Tools:</b> C, Borland C++, MATLAB, microprocessors, Arduino, Proteus, ISIS, AutoCAD, Microsoft Office (including Excel macros)</li>
+</ul>
+</section>
+
+<section class="cv-section cv-education">
+            <h2 class="name"><i class="fas fa-university"></i> Education</h2>
+
+            <ul class="resume-items participation-list">
+                <li class="resume-item border-line-h">
+                    <div class="date">2017 - 2019</div>
+                    <div class="name">Master of Science degree, Electrical and Computer Engineering</div>
+                    <div class="company">KTO Karatay University, Konya/Turkiye</div>
+                    <div><small><strong>Thesis:</strong> Forecasting of Particulate Matter Concentration with Deep Learning Method</small></div>
+                </li>
+                <li class="resume-item">
+                    <div class="date">01.09.2008 - 20.08.2015</div>
+                    <div class="name">Bachelor's degree, Electrical and Electronics Engineering</div>
+                    <div class="company">Başkent University, Ankara/Turkiye</div>
+                    <div><small><strong>Thesis:</strong> Greenhouse Air Conditioning Design</small></div>
+                    <div><small><strong>University Projects:</strong></small></div>
+                    <div><small>Business Network Platform for Blue Collar Employees - Başkent University Incubation Center / Narusta (Apr 2015 - May 2017)</small></div>
+                    <div><small>Intelligent Irrigation Systems - Başkent University Incubation Center / Patelena (Apr 2016 - May 2018)</small></div>
+                </li>
+                <li class="resume-item">
+                    <div class="date">2004 - 2007</div>
+                    <div class="name">High School, Science High School</div>
+                    <div class="company">Gazi University Foundation Science High School, Ankara/Turkiye</div>
+                </li>
             </ul>
             </section>
             <section class="cv-section cv-languages">
@@ -216,8 +228,8 @@
                 <li>Installations Above 1kV and Below 1kV Electricity SMM Certificate - Gazi University - Ankara/Turkiye</li>
                 <li>AutoCAD - Beltek - Ankara/Turkiye</li>
                 <li>Computer Usage - Beltek - Ankara/Turkiye</li>
-                <li>Standart English (B2) - Hampstead School of English - London/England</li>
-                <li>Standart German (A1) - School of Foreign Languages - Baskent University - Ankara/Turkiye</li>
+                <li>Standard English (B2) - Hampstead School of English - London/England</li>
+                <li>Standard German (A1) - School of Foreign Languages - Baskent University - Ankara/Turkiye</li>
                 <li>Driving Licence (B) - Turkiye</li>
                 <li>Driving Licence (A2) - Turkiye</li>
             </ul>
@@ -237,8 +249,8 @@
             <h2><i class="fas fa-book-open"></i> Publications</h2>
             <h3>Thesis</h3>
             <ul class="b participation-list">
-                <li><b>Forecasting of Particulate Matter Concentration with Deep Learning Method. </b></br>
-                    Yasin Akın Ayturan. </br>
+                <li><b>Forecasting of Particulate Matter Concentration with Deep Learning Method. </b><br/>
+                    Yasin Akın Ayturan. <br/>
                     Science Institute - KTO Karatay University (2019/1)
                     <a aria-label="pdf" target="_blank" href="/pub/forecasting-of-particulate-matter-concentration-with-deep-learning-method.pdf"><i class="far fa-file-pdf"></i></a>
                     <a aria-label="pdf" target="_blank" href="http://acikerisim.karatay.edu.tr:8080/xmlui/handle/20.500.12498/823?show=full"><i class="fas fa-external-link-square-alt"></i></a>
@@ -247,50 +259,50 @@
             <h3>Published Papers</h3>
             <ul class="b participation-list">
                 <li>
-                    <b>Formula for Harmfulness of Cell Phone Waves for One Type of Pollution. </b></br>
-                    Ganesa Moorthy C., Yasin Akın Ayturan </br>
+                    <b>Formula for Harmfulness of Cell Phone Waves for One Type of Pollution. </b><br/>
+                    Ganesa Moorthy C., Yasin Akın Ayturan <br/>
                     International Journal of Environmental Pollution and Environmental Modelling, Vol. 22 (1): ss 129 - 133 (2020)
                     <a aria-label="pdf" target="_blank" href="/pub/formula-for-harmfulness-of-cell-phone-waves-for-one-type-of-pollution.pdf"><i class="far fa-file-pdf"></i></a>
-                    <a aria-label="pdf" target="_blank" href="https://dergipark.org.tr/en/pub/ijepem/issue/56604/778367"><i class="fas fa-external-link-square-alt"></i></a></br>
+                    <a aria-label="pdf" target="_blank" href="https://dergipark.org.tr/en/pub/ijepem/issue/56604/778367"><i class="fas fa-external-link-square-alt"></i></a><br/>
                 </li>
                 <li>
-                    <b>Short-Term Prediction of PM2.5 Pollution with Deep Learning Methods. </b></br>
-                    Yasin Akın Ayturan, Zeynep Cansu Ayturan, Huseyin Oktay Altun, Cezar Kongoli, Fatma Didem Tuncez, Sukru Dursun, Ali Ozturk. </br>
+                    <b>Short-Term Prediction of PM2.5 Pollution with Deep Learning Methods. </b><br/>
+                    Yasin Akın Ayturan, Zeynep Cansu Ayturan, Huseyin Oktay Altun, Cezar Kongoli, Fatma Didem Tuncez, Sukru Dursun, Ali Ozturk. <br/>
                     Global NEST Journal Vol. 22 (1): ss 126 - 131 (2020)
                     <a aria-label="pdf" target="_blank" href="/pub/short-term-prediction-of-pm2-5-pollution-with-deep-learning-methods.pdf"><i class="far fa-file-pdf"></i></a>
-                    <a aria-label="pdf" target="_blank" href="https://doi.org/10.30955/gnj.003208"><i class="fas fa-external-link-square-alt"></i></a></br>
+                    <a aria-label="pdf" target="_blank" href="https://doi.org/10.30955/gnj.003208"><i class="fas fa-external-link-square-alt"></i></a><br/>
 
                 </li>
                 <li>
-                    <b>Air Pollution Controlled Prototype Modelling of Electrostatic Precipitator for Small Scale Industries. </b></br>
-                    Rajkumar. G., Yasin Akın Ayturan, S. Sekar and Ganesa Moorthy. </br>
+                    <b>Air Pollution Controlled Prototype Modelling of Electrostatic Precipitator for Small Scale Industries. </b><br/>
+                    Rajkumar. G., Yasin Akın Ayturan, S. Sekar and Ganesa Moorthy. <br/>
                     International Journal of Environmental Pollution and Environmental Modelling Vol. 3 (1): ss 15-21 (2020)
                     <a aria-label="pdf" target="_blank" href="/pub/air-pollution-controlled-prototype-modelling-of-electrostatic-precipitator-for-small-scale-industries.pdf"><i class="far fa-file-pdf"></i></a>
-                    <a aria-label="pdf" target="_blank" href="https://dergipark.org.tr/en/pub/ijepem/issue/54371/619534"><i class="fas fa-external-link-square-alt"></i></a></br>
+                    <a aria-label="pdf" target="_blank" href="https://dergipark.org.tr/en/pub/ijepem/issue/54371/619534"><i class="fas fa-external-link-square-alt"></i></a><br/>
                 </li>
-                <li><b>Air Pollution Modelling with Deep Learning: A Review </b></br>
-                    Yasin Akın Ayturan, Zeynep Cansu Ayturan, Hüseyin Oktay Altun. </br>
+                <li><b>Air Pollution Modelling with Deep Learning: A Review </b><br/>
+                    Yasin Akın Ayturan, Zeynep Cansu Ayturan, Hüseyin Oktay Altun. <br/>
                     International Journal of Environmental Pollution and Environmental Modelling Vol. 1 (3): ss 58-62 (2018)
                     <a aria-label="pdf" target="_blank" href="/pub/air-pollution-modelling-with-deep-learning-a-review.pdf"><i class="far fa-file-pdf"></i></a>
-                    <a aria-label="pdf" target="_blank" href="https://dergipark.org.tr/en/pub/ijepem/issue/39774/471354"><i class="fas fa-external-link-square-alt"></i></a></br>
+                    <a aria-label="pdf" target="_blank" href="https://dergipark.org.tr/en/pub/ijepem/issue/39774/471354"><i class="fas fa-external-link-square-alt"></i></a><br/>
                 </li>
-                <li><b>Modelling of PM10 Pollution in Karatay District of Konya with Artificial Neural Networks. </b></br>
-                    Yasin Akın Ayturan, Ali Oztürk, Zeynep Cansu Ayturan . </br>
+                <li><b>Modelling of PM10 Pollution in Karatay District of Konya with Artificial Neural Networks. </b><br/>
+                    Yasin Akın Ayturan, Ali Oztürk, Zeynep Cansu Ayturan . <br/>
                     Journal of International Environmental Application and Science Vol. 12 (3): ss 256-263 (2017)
                     <a aria-label="pdf" target="_blank" href="/pub/modelling-of-pm10-pollution-in-karatay-district-of-konya-with-artificial-neural-networks.pdf"><i class="far fa-file-pdf"></i></a>
-                    <a aria-label="pdf" target="_blank" href="https://dergipark.org.tr/en/pub/jieas/issue/40241/479480"><i class="fas fa-external-link-square-alt"></i></a> </br>
+                    <a aria-label="pdf" target="_blank" href="https://dergipark.org.tr/en/pub/jieas/issue/40241/479480"><i class="fas fa-external-link-square-alt"></i></a> <br/>
                 </li>
             </ul>
             <h3>Proceedings</h3>
             <ul class="b participation-list">
-                <li><b>Homemade Dip Coating Machine for Thin Films </b></br>
-                    Zeynep Cansu Ayturan, Yasin Akın Ayturan, Emre Dalkılıç, Şükrü Dursun. </br>
+                <li><b>Homemade Dip Coating Machine for Thin Films </b><br/>
+                    Zeynep Cansu Ayturan, Yasin Akın Ayturan, Emre Dalkılıç, Şükrü Dursun. <br/>
                     International Symposium for Environmental Science and Engineering Research 2019 (ISESER2019), Proceedings Book ISESER2019: (2019)
                     <a aria-label="pdf" target="_blank" href="https://api.iseser.com/doc/2019/book/O25.pdf"><i class="far fa-file-pdf"></i></a>
                     <a aria-label="pdf" target="_blank" href="https://iseser.com/year/2019/paper/263/"><i class="fas fa-external-link-square-alt"></i></a>
                 </li>
-                <li><b>Air Pollution Modelling With Deep Learning </b></br>
-                    Yasin Akın Ayturan, Zeynep Cansu Ayturan, Hüseyin Oktay Altun. </br>
+                <li><b>Air Pollution Modelling With Deep Learning </b><br/>
+                    Yasin Akın Ayturan, Zeynep Cansu Ayturan, Hüseyin Oktay Altun. <br/>
                     International Conference of Ecosystems, Proceedings Book ICE2018: ss 301-305 (2018)
                 </li>
             </ul>
@@ -338,6 +350,13 @@
 </div>
 
 <script>
+    (function () {
+        var today = new Date();
+        var age = today.getFullYear() - 1990;
+        if (today.getMonth() < 8 || (today.getMonth() === 8 && today.getDate() < 9)) age--;
+        document.getElementById("profile-age").textContent = age;
+    }());
+
     (function () {
         var storageKey = 'preferred-theme';
         var root = document.documentElement;
